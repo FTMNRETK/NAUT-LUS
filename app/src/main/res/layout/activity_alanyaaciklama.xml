@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#664A666A"
+    tools:context=".alanyaaciklama">
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="418dp"
+        android:layout_height="100dp"
+        android:background="@color/bizim"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="109dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo2" />
+
+    <TextView
+        android:id="@+id/NAUTILUS"
+        android:layout_width="170dp"
+        android:layout_height="42dp"
+        android:layout_alignBottom="@+id/view2"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="26dp"
+        android:layout_toStartOf="@+id/kalplibut"
+        android:layout_toEndOf="@+id/imageView2"
+        android:text="NAUTILUS"
+        android:textColor="@color/nautilus"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view2"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@+id/view2" />
+
+    <ImageButton
+        android:id="@+id/kalplibut"
+        android:layout_width="73dp"
+        android:layout_height="73dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="17dp"
+        android:backgroundTint="#2A484D"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/kalp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="11dp"
+        android:background="#BF163237"
+        android:fontFamily="sans-serif-medium"
+        android:text="ALANYA"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="191dp"
+        android:layout_height="163dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="-1dp"
+        android:text="   Antalya merkezine 133 kilometre uzaklıktaki Alanya, her yıl milyonlarca yerli ve yabancı turisti misafir eden otelleri, dünyaca ünlü plajları, hareketli eğlence hayatı,doğal güzellikleri ve"
+        android:textColor="#050000"
+        android:textColorHighlight="#070404"
+        android:textColorHint="#070000"
+        android:textColorLink="#090000"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="216dp"
+        android:layout_height="111dp"
+        android:layout_below="@+id/view2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="-9dp"
+        android:layout_marginBottom="339dp"
+        app:srcCompat="@drawable/alanyaresimiki" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView11"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-31dp"
+        android:layout_marginEnd="-35dp"
+        android:text="tarihi hazineleriyle Türkiye’nin ünlü"
+        android:textColor="#000000"
+        android:textColorHighlight="#040000"
+        android:textColorHint="#040000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView11"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="-12dp"
+        android:text="ünlü tatil cennetlerinden biri. Deniz kenarında 5 yıldızlı otellerden balayı tatilleri için ideal butik otellere kadar pek çok konaklama seçeneği bulabileceğiniz Alanya’da altın renkli kumlarıyla ünlü Kleopatra Plajı, Damlataş Plajı ve İncekum Plajı ise mavi bayraklı en popüler plajlar arasında."
+        android:textColor="#050000"
+        android:textColorHighlight="#020000"
+        android:textColorHint="#040000"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="203dp"
+        android:layout_height="105dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="76dp"
+        app:srcCompat="@drawable/alanyaresimuc" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="202dp"
+        android:layout_height="115dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="74dp"
+        app:srcCompat="@drawable/alanyaresimbir" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="51dp"
+        android:text="ADRES:"
+        android:textColor="#F80505"
+        android:textColorHighlight="#FF0202"
+        android:textColorHint="#FF0000"
+        android:textColorLink="#FA0303" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="-551dp"
+        android:layout_marginBottom="35dp"
+        android:text="https://yandex.com.tr/harita/-/CCUFjCxZoB"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#070707"
+        android:textColorLink="#000000" />
+
+</RelativeLayout>

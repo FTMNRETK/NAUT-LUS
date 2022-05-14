@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fadi.nautilus">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NAUTILUS">
+        <activity
+            android:name=".kaydol"
+            android:exported="false" />
+        <activity
+            android:name=".alanyaaciklama"
+            android:exported="false" />
+        <activity
+            android:name=".sinemmm"
+            android:exported="false" />
+        <activity
+            android:name=".akdenizalanya"
+            android:exported="false" />
+        <activity
+            android:name=".fovari"
+            android:exported="false" />
+        <activity
+            android:name=".akdeniz"
+            android:exported="false" />
+        <activity
+            android:name=".profil"
+            android:exported="false" />
+        <activity
+            android:name=".navigasyon"
+            android:exported="false" />
+        <activity
+            android:name=".paylas_sayfasi"
+            android:exported="false" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".anasayfa"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
